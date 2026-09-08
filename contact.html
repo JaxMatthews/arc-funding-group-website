@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us | ARC Funding Group</title>
+<meta name="description" content="Get in touch with ARC Funding Group about commercial real estate and business financing." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Contact Us | ARC Funding Group" />
+<meta property="og:description" content="Get in touch with ARC Funding Group about commercial real estate and business financing." />
+<meta property="og:image" content="https://arcfundinggroup.com/assets/images/hero-secondary.jpg" />
+<meta property="og:url" content="https://arcfundinggroup.com/contact.html" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="assets/images/arc-logo-header.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/images/arc-logo-header.png" alt="ARC Funding Group logo" />
+      <span>ARC Funding Group</span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="transactions.html">Transactions</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" class="nav-cta active">Contact Us</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="hero small-hero" style="background-image: url('assets/images/hero-secondary.jpg');">
+  <div class="wrap">
+    <span class="eyebrow">Get In Touch</span>
+    <h1>Let's talk about your financing</h1>
+    <p class="lead">Tell us a little about your project. We typically respond within one business day.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <div class="row">
+          <div class="icon">P</div>
+          <div>
+            <a href="tel:8015991878">801.599.1878</a>
+            <small>Call or text during business hours</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="icon">E</div>
+          <div>
+            <a href="mailto:amatthews@arcfundinggroup.com">amatthews@arcfundinggroup.com</a>
+            <small><a class="quiet-link" href="https://www.linkedin.com/in/aubrey-matthews-83b26622/" target="_blank" rel="noopener noreferrer">Aubrey Matthews, MBA</a> &ndash; President</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="icon">H</div>
+          <div>
+            <div>9:00 AM &ndash; 5:00 PM</div>
+            <small>Monday through Friday</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="icon">N</div>
+          <div>
+            <div>Nationwide Coverage</div>
+            <small>We place loans across the United States</small>
+          </div>
+        </div>
+      </div>
+
+      <!--
+        This form posts to Formspree (https://formspree.io), a free service
+        that emails form submissions to you without needing a server -
+        required since GitHub Pages only hosts static files.
+        Setup: create a free Formspree account, create a new form, and
+        replace YOUR_FORM_ID below with the ID Formspree gives you.
+        Until that's done, the form will not actually send - the phone
+        and email links above work immediately either way.
+      -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <div>
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/images/arc-logo-header.png" alt="ARC Funding Group logo" />
+        <span>ARC Funding Group</span>
+      </div>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="transactions.html">Transactions</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 ARC Funding Group, LLC. All rights reserved.</span>
+      <span>801.599.1878 &nbsp;|&nbsp; amatthews@arcfundinggroup.com</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
